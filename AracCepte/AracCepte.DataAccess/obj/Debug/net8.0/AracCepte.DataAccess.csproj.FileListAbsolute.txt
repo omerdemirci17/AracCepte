@@ -1,0 +1,17 @@
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\bin\Debug\net8.0\AracCepte.DataAccess.deps.json
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\bin\Debug\net8.0\AracCepte.DataAccess.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\bin\Debug\net8.0\AracCepte.DataAccess.pdb
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\bin\Debug\net8.0\AracCepte.Entity.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\bin\Debug\net8.0\AracCepte.Entity.pdb
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.csproj.AssemblyReference.cache
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCept.94353687.Up2Date
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\refint\AracCepte.DataAccess.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.pdb
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\ref\AracCepte.DataAccess.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\bin\Debug\net8.0\AracCepte.DataAccess.runtimeconfig.json
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.DataAccess\obj\Debug\net8.0\AracCepte.DataAccess.genruntimeconfig.cache

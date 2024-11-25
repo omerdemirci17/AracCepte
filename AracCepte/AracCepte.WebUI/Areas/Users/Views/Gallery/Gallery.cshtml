@@ -1,0 +1,116 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<title>Gallery</title>
+<div class="search_section">
+    <div class="container">
+        <div class="select_box_section d-flex align-items-center justify-content-between">
+            <div class="select-outline">
+                <select class="mdb-select dropdown-select">
+                    <option value="" disabled selected>Marka</option>
+                    <option value="1">Toyota</option>
+                    <option value="2">Hyundai</option>
+                    <option value="3">Mercedes</option>
+                </select>
+            </div>
+            <div class="select-outline">
+                <select class="mdb-select dropdown-select">
+                    <option value="" disabled selected>Model</option>
+                    <option value="1">Corolla</option>
+                    <option value="2">i20</option>
+                    <option value="3">E180</option>
+                </select>
+            </div>
+            <div class="select-outline">
+                <select class="mdb-select dropdown-select">
+                    <option value="" disabled selected>Fiyat</option>
+                    <option value="1">0-300000</option>
+                    <option value="2">300000-1000000</option>
+                    <option value="3">1000000-1000000+</option>
+                </select>
+            </div>
+            <div class="search_btn">
+                <a href="#">Şimdi Ara</a>
+            </div>
+            <div class="search_btn">
+                <a href="@Url.Action("AddVehicle", "AddVehicle")">Araç Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                   </div>
+               </div>
+           </div>
+       </div>
+<!-- search section end -->
+<!-- gallery section start -->
+<div class="gallery_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="gallery_taital">EN İYİ TEKLİFLERİMİZ</h1>
+            </div>
+        </div>
+        <div class="gallery_section_2">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="gallery_box">
+                        <div class="gallery_img"><img src="~/elif/images/img-1.png"></div>
+                        <h3 class="types_text">Mercedes </h3>
+                        <p class="looking_text">Günlük 4500₺</p>
+                        <div class="read_bt"><a href="#">Şimdi göz at</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery_box">
+                        <div class="gallery_img"><img src="~/elif/images/img-2.png"></div>
+                        <h3 class="types_text">Mercedes </h3>
+                        <p class="looking_text">Günlük 4500₺</p>
+                        <div class="read_bt"><a href="#">Şimdi göz at</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery_box">
+                        <div class="gallery_img"><img src="~/elif/images/img-3.png"></div>
+                        <h3 class="types_text">Mercedes</h3>
+                        <p class="looking_text">Günlük 4500₺</p>
+                        <div class="read_bt"><a href="#"> Şimdi göz at</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery_section_2">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="gallery_box">
+                        <div class="gallery_img"><img src="~/elif/images/img-1.png"></div>
+                        <h3 class="types_text">Mercedes</h3>
+                        <p class="looking_text">Günlük 4500₺</p>
+                        <div class="read_bt"><a href="#">Şimdi göz at</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery_box">
+                        <div class="gallery_img"><img src="~/elif/images/img-2.png"></div>
+                        <h3 class="types_text">Mercedes</h3>
+                        <p class="looking_text">Günlük 4500₺</p>
+                        <div class="read_bt"><a href="#">Şimdi göz at</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery_box">
+                        <div class="gallery_img"><img src="~/elif/images/img-3.png"></div>
+                        <h3 class="types_text">Mercedes</h3>
+                        <p class="looking_text">Günlük 4500₺</p>
+                        <div class="read_bt"><a href="#">Şimdi göz at</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- gallery section end -->

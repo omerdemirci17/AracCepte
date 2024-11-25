@@ -1,0 +1,58 @@
+﻿
+@{    
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<title>Giriş Yap</title>
+<!-- contact section start -->
+<div class="contact_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="contact_taital">Giriş Yap</h1>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container">
+        <div class="contact_section_2">
+            <div class="row">
+                <div class="col-md-12">
+                    <form method="post">
+                        <!-- Email ve Password model ile bağlanıyor -->
+                        <div class="mail_section_1">
+                            <input type="text" class="mail_text" placeholder="Email" name="Email" value="@Model.Email" required>
+                            <input type="password" class="mail_text" id="password" placeholder="Şifre" name="Password" required>
+                        </div>
+
+                        <div class="send_bt">
+                            <button type="submit" class="send_button">Giriş Yap</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact section end -->
+
+    <!-- contact section end --> 
+    <!-- copyright section start -->
+    <div class="copyright_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="copyright_text">2024 Tüm Hakları Saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>

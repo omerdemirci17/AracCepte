@@ -1,0 +1,92 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<title>Anasayfa</title>
+<!-- banner section start -->
+<div class="banner_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="banner_slider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="banner_taital_main">
+                                <h1 class="banner_taital">Sizin için <br><span style="color: #008080;">Araç Kiralama</span></h1>
+                                <p class="banner_text">
+                                    Araç kiralama firması olarak, seyahatlerinizde konfor ve güvenliği bir araya getiriyoruz. Geniş araç filomuzda her ihtiyaca uygun seçenekler bulunmakta: Ekonomik sınıf araçlardan lüks modellere, SUV'lardan minibüslere kadar geniş bir yelpazede hizmet sunuyoruz. İster iş seyahatlerinizde ister tatil planlarınızda,
+                                    ihtiyacınıza uygun aracı kolaylıkla kiralayabilirsiniz.
+                                </p>
+                                <div class="btn_main">
+                                    <div class="contact_bt"><a href="@Url.Action("About", "About")">Hakkımızda</a></div>
+                                    <div class="contact_bt active"><a href="@Url.Action("Contact", "Contact")">Bize Ulaşın</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner_taital_main">
+                                <h1 class="banner_taital">Aracınızı <br><span style="color: #008080;">Kiraya Verin</span></h1>
+                                <p class="banner_text">Aracınızı kiraya vererek ek gelir elde etmenin en kolay yolu! Platformumuz sayesinde aracınızı güvenle kiraya verebilir, boşta duran aracınızdan kazanç sağlayabilirsiniz.</p>
+                                <div class="btn_main">
+                                    <div class="contact_bt"><a href="@Url.Action("About","About")">Hakkımızda</a></div>
+                                    <div class="contact_bt active"><a href="@Url.Action("Contact", "Contact")">Bize Ulaşın</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner_taital_main">
+                                <h1 class="banner_taital"><span style="color: #008080;">Keşfet</span></h1>
+                                <p class="banner_text">Keşfe başlayın...</p>
+                                <div class="btn_main">
+                                    <div class="contact_bt"><a href="@Url.Action("Gallery", "Gallery")">Araçlar</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image_iman"><img src="~/elif/images/araba1.png" class="about_img"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- banner section end -->
+<!-- about section start -->
+<div class="about_section layout_padding">
+    <div class="container">
+        <div class="about_section_2">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image_iman"><img src="~/elif/images/about-img.png" class="about_img"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about_taital_box">
+                        <h1 class="about_taital">Başarılarımız <span style="color: 008080;"></span></h1>
+                        <p class="about_text">
+                            Elif Buket Duman, Ömer Demirci ve Zehra Kozan tarafından kurulan araç kiralama platformu, 04.11.2024 tarihinde hayata geçirilmiştir ve halen başarıyla faaliyet göstermektedir.
+                            Üç genç girişimci, 20 ve 21 yaşlarında olmalarına rağmen, yenilikçi ve kullanıcı dostu bir platform oluşturmayı başarmışlardır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about section end -->
+<!-- Javascript files-->
+<script src="~/elif/js/jquery.min.js"></script>
+<script src="~/elif/js/popper.min.js"></script>
+<script src="~/elif/js/bootstrap.bundle.min.js"></script>
+<script src="~/elif/js/jquery-3.0.0.min.js"></script>
+<script src="~/elif/js/plugin.js"></script>
+<!-- sidebar -->
+<script src="~/elif/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="~/elif/js/custom.js"></script>

@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\elif\.vs\VSWorkspaceState.json" />
+    <Content Include="wwwroot\elif\css\.vs\VSWorkspaceState.json" />
+    <Content Include="wwwroot\elif\js\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Users\Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\elif\.vs\elif\FileContentIndex\099e30d3-85c5-4904-b09f-38095652483d.vsidx" />
+    <None Include="wwwroot\elif\.vs\elif\FileContentIndex\435ae7c4-796d-4586-bb21-0dea9af09bf0.vsidx" />
+    <None Include="wwwroot\elif\.vs\elif\FileContentIndex\5b0fb81a-563c-4378-b789-330a73c88ce4.vsidx" />
+    <None Include="wwwroot\elif\.vs\elif\FileContentIndex\69c8dcd1-b287-4391-9a20-86f8bb8bfcd6.vsidx" />
+    <None Include="wwwroot\elif\.vs\elif\FileContentIndex\c9b828d7-7c19-4d36-9004-f38576983e32.vsidx" />
+    <None Include="wwwroot\elif\.vs\elif\v17\.wsuo" />
+    <None Include="wwwroot\elif\.vs\slnx.sqlite" />
+    <None Include="wwwroot\elif\css\.DS_Store" />
+    <None Include="wwwroot\elif\css\.vs\css\FileContentIndex\4b159c60-7b13-4e2f-b634-683c1b9b62e9.vsidx" />
+    <None Include="wwwroot\elif\css\.vs\css\v17\.wsuo" />
+    <None Include="wwwroot\elif\css\.vs\slnx.sqlite" />
+    <None Include="wwwroot\elif\js\.DS_Store" />
+    <None Include="wwwroot\elif\js\.vs\js\FileContentIndex\5de6978b-678a-4733-866b-cbe8e33fb063.vsidx" />
+    <None Include="wwwroot\elif\js\.vs\js\v17\.wsuo" />
+    <None Include="wwwroot\elif\js\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AracCepte.API\AracCepte.API.csproj" />
+  </ItemGroup>
+
+</Project>

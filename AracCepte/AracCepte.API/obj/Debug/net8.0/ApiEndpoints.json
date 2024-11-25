@@ -1,0 +1,742 @@
+[
+  {
+    "ContainingType": "AracCepte.API.Controllers.AboutsController",
+    "Method": "Get",
+    "RelativePath": "api/Abouts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.AboutsController",
+    "Method": "Create",
+    "RelativePath": "api/Abouts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAboutDto",
+        "Type": "AracCepte.DTO.DTOs.AboutDtos.CreateAboutDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.AboutsController",
+    "Method": "Update",
+    "RelativePath": "api/Abouts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateAboutDto",
+        "Type": "AracCepte.DTO.DTOs.AboutDtos.UpdateAboutDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.AboutsController",
+    "Method": "GetById",
+    "RelativePath": "api/Abouts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.AboutsController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Abouts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.BannersController",
+    "Method": "Get",
+    "RelativePath": "api/Banners",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.BannersController",
+    "Method": "Create",
+    "RelativePath": "api/Banners",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBannerDto",
+        "Type": "AracCepte.DTO.DTOs.BannerDtos.CreateBannerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.BannersController",
+    "Method": "Update",
+    "RelativePath": "api/Banners",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateBannerDto",
+        "Type": "AracCepte.DTO.DTOs.BannerDtos.UpdateBannerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.BannersController",
+    "Method": "GetById",
+    "RelativePath": "api/Banners/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.BannersController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Banners/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ContactsController",
+    "Method": "Get",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ContactsController",
+    "Method": "Create",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createContactDto",
+        "Type": "AracCepte.DTO.DTOs.ContactDtos.CreateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ContactsController",
+    "Method": "Update",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateContactDto",
+        "Type": "AracCepte.DTO.DTOs.ContactDtos.UpdateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ContactsController",
+    "Method": "GetById",
+    "RelativePath": "api/Contacts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ContactsController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Contacts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.InsurancesController",
+    "Method": "Get",
+    "RelativePath": "api/Insurances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.InsurancesController",
+    "Method": "Create",
+    "RelativePath": "api/Insurances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createInsuranceDto",
+        "Type": "AracCepte.DTO.DTOs.InsuranceDtos.CreateInsuranceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.InsurancesController",
+    "Method": "Update",
+    "RelativePath": "api/Insurances",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateInsuranceDto",
+        "Type": "AracCepte.DTO.DTOs.InsuranceDtos.UpdateInsuranceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.InsurancesController",
+    "Method": "GetById",
+    "RelativePath": "api/Insurances/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.InsurancesController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Insurances/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.PaymentsController",
+    "Method": "Get",
+    "RelativePath": "api/Payments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.PaymentsController",
+    "Method": "Create",
+    "RelativePath": "api/Payments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPaymentDto",
+        "Type": "AracCepte.DTO.DTOs.PaymentDtos.CreatePaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.PaymentsController",
+    "Method": "Update",
+    "RelativePath": "api/Payments",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePaymentDto",
+        "Type": "AracCepte.DTO.DTOs.PaymentDtos.UpdatePaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.PaymentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Payments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.PaymentsController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Payments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "Method": "Get",
+    "RelativePath": "api/Ratings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "Method": "Create",
+    "RelativePath": "api/Ratings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createRatingDto",
+        "Type": "AracCepte.DTO.DTOs.RatingDtos.CreateRatingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "Method": "Update",
+    "RelativePath": "api/Ratings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateRatingDto",
+        "Type": "AracCepte.DTO.DTOs.RatingDtos.UpdateRatingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "Method": "GetById",
+    "RelativePath": "api/Ratings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Ratings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ReservationsController",
+    "Method": "Get",
+    "RelativePath": "api/Reservations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ReservationsController",
+    "Method": "Create",
+    "RelativePath": "api/Reservations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createReservationDto",
+        "Type": "AracCepte.DTO.DTOs.ReservationDtos.CreateReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ReservationsController",
+    "Method": "Update",
+    "RelativePath": "api/Reservations",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateReservationDto",
+        "Type": "AracCepte.DTO.DTOs.ReservationDtos.UpdateReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ReservationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Reservations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.ReservationsController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Reservations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.SocialMediasController",
+    "Method": "Get",
+    "RelativePath": "api/SocialMedias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.SocialMediasController",
+    "Method": "Create",
+    "RelativePath": "api/SocialMedias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSocialMediaDto",
+        "Type": "AracCepte.DTO.DTOs.SocialMediaDtos.CreateSocialMediaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.SocialMediasController",
+    "Method": "Update",
+    "RelativePath": "api/SocialMedias",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateSocialMediaDto",
+        "Type": "AracCepte.DTO.DTOs.SocialMediaDtos.UpdateSocialMediaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.SocialMediasController",
+    "Method": "GetById",
+    "RelativePath": "api/SocialMedias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.SocialMediasController",
+    "Method": "DeleteById",
+    "RelativePath": "api/SocialMedias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserDto",
+        "Type": "AracCepte.DTO.DTOs.UserDtos.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/Users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateUserDto",
+        "Type": "AracCepte.DTO.DTOs.UserDtos.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "Method": "Get",
+    "RelativePath": "api/Vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "Method": "Create",
+    "RelativePath": "api/Vehicles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createVecihleDto",
+        "Type": "AracCepte.DTO.DTOs.VehicleDtos.CreateVehicleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "Method": "Update",
+    "RelativePath": "api/Vehicles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateVecihleDto",
+        "Type": "AracCepte.DTO.DTOs.VehicleDtos.UpdateVehicleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "Method": "GetById",
+    "RelativePath": "api/Vehicles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Vehicles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

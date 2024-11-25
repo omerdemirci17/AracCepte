@@ -1,0 +1,6 @@
+@AracCepte.API_HostAddress = http://localhost:5020
+
+GET {{AracCepte.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

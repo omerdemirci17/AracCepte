@@ -1,0 +1,17 @@
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\bin\Debug\net8.0\AracCepte.Business.deps.json
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\bin\Debug\net8.0\AracCepte.Business.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\bin\Debug\net8.0\AracCepte.Business.pdb
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\bin\Debug\net8.0\AracCepte.DataAccess.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\bin\Debug\net8.0\AracCepte.Entity.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\bin\Debug\net8.0\AracCepte.DataAccess.pdb
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\bin\Debug\net8.0\AracCepte.Entity.pdb
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCepte.Business.csproj.AssemblyReference.cache
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCepte.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCepte.Business.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCepte.Business.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCepte.Business.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCept.154B5551.Up2Date
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCepte.Business.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\refint\AracCepte.Business.dll
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\AracCepte.Business.pdb
+C:\Users\MONSTER\source\repos\AracCepte\AracCepte.Business\obj\Debug\net8.0\ref\AracCepte.Business.dll

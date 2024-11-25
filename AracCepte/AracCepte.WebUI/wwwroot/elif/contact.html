@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Basic Meta Tags -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> İletişim</title>
+      <!-- Font CSS -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- Custom Style CSS -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- Google reCAPTCHA -->
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+      <style>
+         /* Genel Stil */
+         body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+         }
+         .centered {
+            text-align: center;
+            margin: 20px auto;
+         }
+         .contact-section {
+            padding: 60px 0;
+         }
+         .contact-form {
+            background: #008080;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+         }
+          .message-button {
+              background-color: #008080;
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+         .message-button:hover {
+            background-color: #008080;
+         }
+         .error {
+            color: #008080;
+            display: none;
+         }
+         .map-wrapper {
+            height: 400px;
+            margin-bottom: 20px;
+         }
+         .google-map {
+            width: 100%;
+            height: 100%;
+            border: 0;
+         }
+
+         /* Mobil Uyum */
+         @media (max-width: 767px) {
+            .contact-section {
+               padding: 30px 15px;
+            }
+            .contact-form {
+               padding: 15px;
+            }
+            .message-button {
+               width: 100%;
+               padding: 12px;
+            }
+            .map-wrapper {
+               height: 300px;
+            }
+         }
+
+         @media (max-width: 575px) {
+            .navbar-brand img {
+               width: 150px;
+            }
+            .navbar-toggler {
+               font-size: 1.2rem;
+            }
+            .map-wrapper {
+               height: 250px;
+            }
+         }
+      </style>
+   </head>
+   <body>
+       <!-- Header Section Start -->
+       <div class="header_section">
+           <div class="container">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                   <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="search">
+                       <input type="text" placeholder="Arama yap...">
+                       <button>🔍</button>
+                   </div>
+
+                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav ml-auto">
+                           <li class="nav-item">
+                               <a class="nav-link" href="index.html">Anasayfa</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="services.html">Hizmetler</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="gallery.html">Araçlar</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="contact.html">İletişim</a>
+                           </li>
+                           <div class="profile-dropdown">
+                               <div class="profile-icon"> <img src="images/profil.png" href="images/profil.png" alt="Profil" style="width: 100%; height: 100%; border-radius: 50%;"></div>
+                               <div class="profile-dropdown-content"> <a href="Girişyap.html">Giriş Yap</a> <a href="Kayıtol.html">Kayıt Ol</a> </div>
+                           </div>
+                       </ul>
+                       <form class="form-inline my-2 my-lg-0">
+                       </form>
+                   </div>
+               </nav>
+           </div>
+       </div>
+       <!-- Header Section End -->
+       <!-- Contact Section Start -->
+       <div class="contact-section">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <h2 class="text-center">İletişime Geçin</h2>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-md-8 offset-md-2">
+                       <div class="contact-form">
+                           <form id="contact-form" action="core/contact.php" method="POST">
+                               <div class="form-group">
+                                   <input type="text" class="form-control" id="name" name="name" placeholder="Adınızı giriniz." required>
+                                   <div class="error" id="error-name">Please enter your name</div>
+                               </div>
+                               <div class="form-group">
+                                   <input type="email" class="form-control" id="email" name="email" placeholder="Epostanızı giriniz." required>
+                                   <div class="error" id="error-email">Please enter a valid email</div>
+                               </div>
+                               <div class="form-group">
+                                   <input type="text" class="form-control" id="phone" name="phone" placeholder="Telefonun numaranızı giriniz.">
+                               </div>
+                               <div class="form-group">
+                                   <textarea class="form-control" id="comment" name="comment" placeholder="Mesajınızı giriniz." rows="5" required></textarea>
+                                   <div class="error" id="error-comment">Mesajınızı giriniz.</div>
+                               </div>
+                               <div class="g-recaptcha" data-sitekey="Enter-your-site-key-here"></div>
+                               <button type="submit" class="message-button">Gönder</button>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- Contact Section End -->
+       <!-- Google Map Start -->
+       <div class="map-wrapper">
+           <iframe class="google-map"
+                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3087.275611276908!2d35.1956093!3d39.8008985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d046c06b2c3d3d%3A0x5c09f98c9d86ed8!2sYozgat%20Bozok%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str"
+                   allowfullscreen=""
+                   loading="lazy"></iframe>
+       </div>
+       <!-- Google Map End -->
+       <!-- Footer Section Start -->
+       <div class="footer_section layout_padding">
+           <div class="container">
+               <div class="row">
+               </div>
+               <div class="footer_section_2">
+                   <div class="row">
+                       <div class="col">
+                           <h4 class="footer_taital">Şimdi Kayıt Ol </h4>
+                           <p class="footer_text"></p>
+                           <div class="form-group">
+                               <p class="footer_text">Ailemiz sen olmadan bir kişi eksik.</p>
+                               <div class="subscribe_bt"><a href="Kayıtol.html"><href ='Kayıtol.html' "></button>Kayıt Ol</a></div>
+
+                           </div>
+                       </div>
+                       <div class="col">
+                           <h4 class="footer_taital">Müşteri Hizmetleri</h4>
+                           <p class="lorem_text">Her türlü soru, öneri ve şikayetleriniz için bize ulaşabilirsiniz. Profesyonel ekibimiz, size en iyi hizmeti sunmak için burada. </p>
+                       </div>
+                       <div class="col">
+                           <h4 class="footer_taital">Sponsorlarımız</h4>
+                           <p class="lorem_text"> </p>
+                       </div>
+                       <div class="col">
+                           <h4 class="footer_taital">Bize Ulaşın</h4>
+                           <div class="location_text"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_15">Konum</span></a></div>
+                           <div class="location_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_15">(+90) 1234567890</span></a></div>
+                           <div class="location_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_15">Araccepte@gmail.com</span></a></div>
+                           <div class="social_icon">
+                               <ul>
+                                   <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                   <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                   <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                   <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- Footer Section End -->
+       <!-- Scripts -->
+       <script src="js/jquery.min.js"></script>
+       <script src="js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
