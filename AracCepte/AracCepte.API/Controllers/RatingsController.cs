@@ -5,7 +5,7 @@ using AracCepte.Business.Abstract;
 using AracCepte.DTO.DTOs.RatingDtos;
 using AracCepte.Entity.Entities;
 
-namespace OnlineEdu.API.Controllers
+namespace AracCepte.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

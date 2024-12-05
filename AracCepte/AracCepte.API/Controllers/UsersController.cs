@@ -5,7 +5,7 @@ using AracCepte.Business.Abstract;
 using AracCepte.DTO.DTOs.UserDtos;
 using AracCepte.Entity.Entities;
 
-namespace OnlineEdu.API.Controllers
+namespace AracCepte.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -52,6 +52,17 @@ namespace OnlineEdu.API.Controllers
             var value = _mapper.Map<User>(updateUserDto);
             _userService.TUpdate(value);
             return Ok("kullanici Güncellendi");
+        }
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] CreateUserDto dto)
+        {
+            if (dto == null)
+            {
+                return BadRequest("");
+            }
+
+            
         }
     }
 }
