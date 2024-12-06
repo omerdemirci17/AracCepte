@@ -20,6 +20,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+builder.Services.AddHttpClient();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

@@ -21,6 +21,18 @@ namespace AracCepte.Business.Concrete
         {
             _repository.Create(entity);
         }
+        public async Task<bool> AddAsync(T entity)
+        {
+            try
+            {
+                await _repository.AddAsync(entity);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
 
         public void TDelete(int id)
         {

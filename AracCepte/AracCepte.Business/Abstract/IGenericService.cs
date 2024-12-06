@@ -17,6 +17,8 @@ namespace AracCepte.Business.Abstract
 
         void TCreate(T entity);
 
+        Task<bool> AddAsync(T entity);
+
         void TUpdate(T entity);
 
         void TDelete(int id);

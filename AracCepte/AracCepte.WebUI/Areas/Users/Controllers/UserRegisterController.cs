@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AracCepte.WebUI.Areas.Users.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AracCepte.WebUI.Areas.Users.Controllers
 {
@@ -6,10 +7,30 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
     [Route("[area]/[controller]/[action]/{id?}")]
     public class UserRegisterController : Controller
     {
-        public IActionResult Register()
+        private readonly HttpClient _httpClient;
+
+        public UserRegisterController(HttpClient httpClient)
         {
-            return View("Register");
+            _httpClient = httpClient;
         }
+
+
+        /*[HttpPost]
+        public async Task<IActionResult> Register(RegisterViewModel model)
+        {
+            if(!ModelState.IsValid)
+                return View("Register");
+
+            var response = await _httpClient.PostAsJsonAsync("https://localhost:5020/api/Users/register", model);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Başarılı");
+            }
+
+            ModelState.AddModelError("", "Kayıt sırasında bir hata oluştu");
+            return View(model);
+        }*/
     }
 
 }

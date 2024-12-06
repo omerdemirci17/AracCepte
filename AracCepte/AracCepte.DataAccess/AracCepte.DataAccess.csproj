@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AracCepte.DTO\AracCepte.DTO.csproj" />
     <ProjectReference Include="..\AracCepte.Entity\AracCepte.Entity.csproj" />
   </ItemGroup>
 

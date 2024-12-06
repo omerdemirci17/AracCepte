@@ -24,6 +24,13 @@ namespace AracCepte.DataAccess.Repostories
             _context.SaveChanges();
         }
 
+        public async Task AddAsync(T entity)
+        {
+            await _context.Set<T>().AddAsync(entity);
+            await _context.SaveChangesAsync();
+
+        }
+
         public void Delete(int id)
         {
             var entity = Table.Find(id);

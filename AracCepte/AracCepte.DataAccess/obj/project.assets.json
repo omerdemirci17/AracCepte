@@ -1625,6 +1625,19 @@
           }
         }
       },
+      "AracCepte.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AracCepte.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AracCepte.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AracCepte.DTO.dll": {}
+        }
+      },
       "AracCepte.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4770,6 +4783,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "AracCepte.DTO/1.0.0": {
+      "type": "project",
+      "path": "../AracCepte.DTO/AracCepte.DTO.csproj",
+      "msbuildProject": "../AracCepte.DTO/AracCepte.DTO.csproj"
+    },
     "AracCepte.Entity/1.0.0": {
       "type": "project",
       "path": "../AracCepte.Entity/AracCepte.Entity.csproj",
@@ -4778,6 +4796,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AracCepte.DTO >= 1.0.0",
       "AracCepte.Entity >= 1.0.0",
       "AutoMapper >= 13.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
@@ -4791,11 +4810,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj",
       "projectName": "AracCepte.DataAccess",
-      "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj",
+      "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj",
       "packagesPath": "C:\\Users\\MONSTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4817,8 +4836,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj"
+            "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\AracCepte.DTO.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\AracCepte.DTO.csproj"
+            },
+            "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj"
             }
           }
         }

@@ -19,7 +19,6 @@
   <ItemGroup>
     <ProjectReference Include="..\AracCepte.Business\AracCepte.Business.csproj" />
     <ProjectReference Include="..\AracCepte.DataAccess\AracCepte.DataAccess.csproj" />
-    <ProjectReference Include="..\AracCepte.DTO\AracCepte.DTO.csproj" />
   </ItemGroup>
 
 </Project>

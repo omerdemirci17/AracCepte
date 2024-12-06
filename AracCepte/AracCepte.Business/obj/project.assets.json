@@ -63,6 +63,19 @@
           }
         }
       },
+      "BCrypt.Net-Next/4.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1031,6 +1044,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AracCepte.DTO": "1.0.0",
           "AracCepte.Entity": "1.0.0",
           "AutoMapper": "13.0.1"
         },
@@ -1039,6 +1053,19 @@
         },
         "runtime": {
           "bin/placeholder/AracCepte.DataAccess.dll": {}
+        }
+      },
+      "AracCepte.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AracCepte.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AracCepte.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AracCepte.DTO.dll": {}
         }
       },
       "AracCepte.Entity/1.0.0": {
@@ -1109,6 +1136,37 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2865,6 +2923,11 @@
       "path": "../AracCepte.DataAccess/AracCepte.DataAccess.csproj",
       "msbuildProject": "../AracCepte.DataAccess/AracCepte.DataAccess.csproj"
     },
+    "AracCepte.DTO/1.0.0": {
+      "type": "project",
+      "path": "../AracCepte.DTO/AracCepte.DTO.csproj",
+      "msbuildProject": "../AracCepte.DTO/AracCepte.DTO.csproj"
+    },
     "AracCepte.Entity/1.0.0": {
       "type": "project",
       "path": "../AracCepte.Entity/AracCepte.Entity.csproj",
@@ -2873,7 +2936,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AracCepte.DataAccess >= 1.0.0"
+      "AracCepte.DataAccess >= 1.0.0",
+      "BCrypt.Net-Next >= 4.0.3"
     ]
   },
   "packageFolders": {
@@ -2883,11 +2947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.Business\\AracCepte.Business.csproj",
+      "projectUniqueName": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.Business\\AracCepte.Business.csproj",
       "projectName": "AracCepte.Business",
-      "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.Business\\AracCepte.Business.csproj",
+      "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.Business\\AracCepte.Business.csproj",
       "packagesPath": "C:\\Users\\MONSTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.Business\\obj\\",
+      "outputPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2909,8 +2973,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj"
+            "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DataAccess\\AracCepte.DataAccess.csproj"
             }
           }
         }
@@ -2929,6 +2993,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -17,6 +17,8 @@ namespace AracCepte.DataAccess.Abstract
 
         void Create(T entity);
 
+        Task AddAsync(T entity);
+
         void Update(T entity);
 
         void Delete(int id);

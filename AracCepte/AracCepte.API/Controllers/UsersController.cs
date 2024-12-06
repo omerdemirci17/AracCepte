@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using AracCepte.Business.Abstract;
 using AracCepte.DTO.DTOs.UserDtos;
 using AracCepte.Entity.Entities;
+using AracCepte.Business.UserService;
 
 namespace AracCepte.API.Controllers
 {
@@ -11,6 +12,7 @@ namespace AracCepte.API.Controllers
     [ApiController]
     public class UsersController(IGenericService<User> _userService, IMapper _mapper) : ControllerBase
     {
+
         //User get all of them
         [HttpGet]
         public IActionResult Get()
@@ -55,12 +57,29 @@ namespace AracCepte.API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] CreateUserDto dto)
+        public async Task<IActionResult> Register([FromBody] CreateUserDto createUserDto)
         {
-            if (dto == null)
+            if (!ModelState.IsValid)
             {
-                return BadRequest("");
+                return BadRequest(ModelState);
             }
+
+            var user = new User
+            {
+                Name = createUserDto.Name,
+                Surname = createUserDto.Surname,
+                Email = createUserDto.Email,
+                Password = BCrypt.Net.BCrypt.HashPassword(createUserDto.Password)
+            };
+
+            var result = await _userService.AddAsync(user);
+
+            if (!result)
+            {
+                return StatusCode(500, "Kullanıcı kaydedilirken bir hata oluştu");
+            }
+
+            return Ok("Kullanıcı başarıyla kaydedildi");
 
             
         }
