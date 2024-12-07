@@ -7,6 +7,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using AracCepte.Entity.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace AracCepte.Business.Concrete
 {
@@ -28,9 +30,16 @@ namespace AracCepte.Business.Concrete
                 await _repository.AddAsync(entity);
                 return true;
             }
-            catch (Exception)
+            catch (DbUpdateException dbEx)
             {
+                Console.WriteLine($"Veritabani Hatasi : {dbEx.Message}");
+                Console.WriteLine($"inner exeption hatasi: {dbEx.InnerException?.Message}");
                 return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Bir Hata olustu: {ex.Message}");
+                return false ;
             }
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AracCepte.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efcd8242bc120c828ee33ef983c58e980704f55e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+892a0fe4c8e46778eacff103e46255f0b407ffe9")]
 [assembly: System.Reflection.AssemblyProductAttribute("AracCepte.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AracCepte.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

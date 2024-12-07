@@ -4,10 +4,12 @@ using AracCepte.DataAccess.Abstract;
 using AracCepte.DataAccess.Repostories;
 using AracCepte.Business.Abstract;
 using AracCepte.Business.Concrete;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>) );
 builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>) );
 builder.Services.AddDbContext<AracCepteContext>(options =>

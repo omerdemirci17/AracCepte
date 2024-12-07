@@ -26,6 +26,5 @@ namespace AracCepte.DTO.DTOs.UserDtos
         [Required]
         [RegularExpression(@"^\+?\d{10}$", ErrorMessage = "Girilen telefon numarası geçersizdir")]
         public int PhoneNumber { get; set; } // User's Phone Number
-        public string ImageURL1 { get; set; } // User's Profile Photograph
     }
 }

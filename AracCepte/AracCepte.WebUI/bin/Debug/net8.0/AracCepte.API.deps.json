@@ -1120,7 +1120,10 @@
           "BCrypt.Net-Next": "4.0.3"
         },
         "runtime": {
-          "AracCepte.Business.dll": {}
+          "AracCepte.Business.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AracCepte.DataAccess/1.0.0": {
@@ -1130,7 +1133,10 @@
           "AutoMapper": "13.0.1"
         },
         "runtime": {
-          "AracCepte.DataAccess.dll": {}
+          "AracCepte.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AracCepte.DTO/1.0.0": {
@@ -1138,7 +1144,10 @@
           "AracCepte.Entity": "1.0.0"
         },
         "runtime": {
-          "AracCepte.DTO.dll": {}
+          "AracCepte.DTO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AracCepte.Entity/1.0.0": {
@@ -1147,7 +1156,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
         },
         "runtime": {
-          "AracCepte.Entity.dll": {}
+          "AracCepte.Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

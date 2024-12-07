@@ -195,7 +195,6 @@ C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\ne
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\net8.0\AracCepte.API.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\net8.0\AracCepte.API.pdb
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.API\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -1,9 +1,15 @@
+using AracCepte.Business.Abstract;
+using AracCepte.Business.Concrete;
+using AracCepte.DataAccess.Abstract;
 using AracCepte.DataAccess.Context;
+using AracCepte.DataAccess.Repostories;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped(typeof(IRepository<>),typeof(GenericRepository<>));
+builder.Services.AddScoped(typeof(IGenericService<>),typeof(GenericManager<>));
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 builder.Services.AddDbContext<AracCepteContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
@@ -20,7 +26,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//builder.Services.AddHttpClient();
+
+builder.Services.AddHttpClient();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
