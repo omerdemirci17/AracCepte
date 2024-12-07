@@ -15,13 +15,13 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
         }
 
 
-        /*[HttpPost]
+        [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if(!ModelState.IsValid)
-                return View("Register");
+                return View(model);
 
-            var response = await _httpClient.PostAsJsonAsync("https://localhost:5020/api/Users/register", model);
+            var response = await _httpClient.PostAsJsonAsync("https://localhost:7133/api/Users/register", model);
 
             if (response.IsSuccessStatusCode)
             {
@@ -30,7 +30,7 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
 
             ModelState.AddModelError("", "Kayıt sırasında bir hata oluştu");
             return View(model);
-        }*/
+        }
     }
 
 }

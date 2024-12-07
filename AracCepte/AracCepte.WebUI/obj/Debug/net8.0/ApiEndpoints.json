@@ -370,7 +370,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "ContainingType": "AracCepte.API.Controllers.RatingsController",
     "Method": "Get",
     "RelativePath": "api/Ratings",
     "HttpMethod": "GET",
@@ -380,7 +380,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "ContainingType": "AracCepte.API.Controllers.RatingsController",
     "Method": "Create",
     "RelativePath": "api/Ratings",
     "HttpMethod": "POST",
@@ -396,7 +396,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "ContainingType": "AracCepte.API.Controllers.RatingsController",
     "Method": "Update",
     "RelativePath": "api/Ratings",
     "HttpMethod": "PUT",
@@ -412,7 +412,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "ContainingType": "AracCepte.API.Controllers.RatingsController",
     "Method": "GetById",
     "RelativePath": "api/Ratings/{id}",
     "HttpMethod": "GET",
@@ -428,7 +428,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.RatingsController",
+    "ContainingType": "AracCepte.API.Controllers.RatingsController",
     "Method": "DeleteById",
     "RelativePath": "api/Ratings/{id}",
     "HttpMethod": "DELETE",
@@ -592,7 +592,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "ContainingType": "AracCepte.API.Controllers.UsersController",
     "Method": "Get",
     "RelativePath": "api/Users",
     "HttpMethod": "GET",
@@ -602,7 +602,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "ContainingType": "AracCepte.API.Controllers.UsersController",
     "Method": "Create",
     "RelativePath": "api/Users",
     "HttpMethod": "POST",
@@ -618,7 +618,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "ContainingType": "AracCepte.API.Controllers.UsersController",
     "Method": "Update",
     "RelativePath": "api/Users",
     "HttpMethod": "PUT",
@@ -634,7 +634,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "ContainingType": "AracCepte.API.Controllers.UsersController",
     "Method": "GetById",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "GET",
@@ -650,7 +650,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.UsersController",
+    "ContainingType": "AracCepte.API.Controllers.UsersController",
     "Method": "DeleteById",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "DELETE",
@@ -666,7 +666,23 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "ContainingType": "AracCepte.API.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserDto",
+        "Type": "AracCepte.DTO.DTOs.UserDtos.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AracCepte.API.Controllers.VehiclesController",
     "Method": "Get",
     "RelativePath": "api/Vehicles",
     "HttpMethod": "GET",
@@ -676,7 +692,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "ContainingType": "AracCepte.API.Controllers.VehiclesController",
     "Method": "Create",
     "RelativePath": "api/Vehicles",
     "HttpMethod": "POST",
@@ -692,7 +708,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "ContainingType": "AracCepte.API.Controllers.VehiclesController",
     "Method": "Update",
     "RelativePath": "api/Vehicles",
     "HttpMethod": "PUT",
@@ -708,7 +724,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "ContainingType": "AracCepte.API.Controllers.VehiclesController",
     "Method": "GetById",
     "RelativePath": "api/Vehicles/{id}",
     "HttpMethod": "GET",
@@ -724,7 +740,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "OnlineEdu.API.Controllers.VehiclesController",
+    "ContainingType": "AracCepte.API.Controllers.VehiclesController",
     "Method": "DeleteById",
     "RelativePath": "api/Vehicles/{id}",
     "HttpMethod": "DELETE",
