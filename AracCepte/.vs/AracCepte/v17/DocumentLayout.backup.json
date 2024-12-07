@@ -1,14 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\",
+  "WorkspaceRootPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\",
   "Documents": [
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|c:\\users\\zehra\\onedrive\\belgeler\\github\\araccepte\\araccepte\\araccepte.webui\\areas\\users\\views\\addvehicle\\addvehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|solutionrelative:araccepte.webui\\areas\\users\\views\\addvehicle\\addvehicle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7A78813-9A43-4765-A932-D04F9B0402C2}|AracCepte.DTO\\AracCepte.DTO.csproj|c:\\users\\zehra\\onedrive\\belgeler\\github\\araccepte\\araccepte\\araccepte.dto\\dtos\\vehicledto\\createvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7A78813-9A43-4765-A932-D04F9B0402C2}|AracCepte.DTO\\AracCepte.DTO.csproj|solutionrelative:araccepte.dto\\dtos\\vehicledto\\createvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A64F9F-8CDB-4CF9-9639-37ABB0784AD1}|AracCepte.API\\AracCepte.API.csproj|c:\\users\\zehra\\onedrive\\belgeler\\github\\araccepte\\araccepte\\araccepte.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A64F9F-8CDB-4CF9-9639-37ABB0784AD1}|AracCepte.API\\AracCepte.API.csproj|solutionrelative:araccepte.api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+=======
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
+      "AbsoluteMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|c:\\users\\monster\\documents\\github\\araccepte\\araccepte\\araccepte.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|solutionrelative:araccepte.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|c:\\users\\monster\\documents\\github\\araccepte\\araccepte\\araccepte.webui\\areas\\users\\views\\userhome\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|solutionrelative:araccepte.webui\\areas\\users\\views\\userhome\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|c:\\users\\monster\\documents\\github\\araccepte\\araccepte\\araccepte.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|solutionrelative:araccepte.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA0933F6-5B5E-4BC8-B12B-49370D36427F}|AracCepte.WebUI\\AracCepte.WebUI.csproj|c:\\users\\monster\\documents\\github\\araccepte\\araccepte\\araccepte.webui\\areas\\users\\controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,6 +72,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{A7A78813-9A43-4765-A932-D04F9B0402C2}|AracCepte.DTO\\AracCepte.DTO.csproj|c:\\users\\monster\\documents\\github\\araccepte\\araccepte\\araccepte.dto\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7A78813-9A43-4765-A932-D04F9B0402C2}|AracCepte.DTO\\AracCepte.DTO.csproj|solutionrelative:araccepte.dto\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +82,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiclesController.cs",
+              "DocumentMoniker": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.API\\Controllers\\VehiclesController.cs",
+              "RelativeDocumentMoniker": "AracCepte.API\\Controllers\\VehiclesController.cs",
+              "ToolTip": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.API\\Controllers\\VehiclesController.cs",
+              "RelativeToolTip": "AracCepte.API\\Controllers\\VehiclesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:26:58.156Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateVehicleDto.cs",
+              "DocumentMoniker": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\DTOs\\VehicleDto\\CreateVehicleDto.cs",
+              "RelativeDocumentMoniker": "AracCepte.DTO\\DTOs\\VehicleDto\\CreateVehicleDto.cs",
+              "ToolTip": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\DTOs\\VehicleDto\\CreateVehicleDto.cs",
+              "RelativeToolTip": "AracCepte.DTO\\DTOs\\VehicleDto\\CreateVehicleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAuAAAA",
+=======
+=======
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,8 +128,7 @@
               "RelativeToolTip": "AracCepte.WebUI\\Areas\\Users\\Views\\UserRegister\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T20:17:41.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T20:17:41.009Z"
             },
             {
               "$type": "Document",
@@ -95,8 +140,7 @@
               "RelativeToolTip": "AracCepte.WebUI\\Views\\Shared\\_HomeLayout.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAACeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T20:10:43.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T20:10:43.194Z"
             },
             {
               "$type": "Document",
@@ -132,24 +176,40 @@
               "RelativeToolTip": "AracCepte.WebUI\\Areas\\Users\\Controllers\\UserRegisterController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:32:14.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T19:32:14.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\Program.cs",
               "RelativeDocumentMoniker": "AracCepte.WebUI\\Program.cs",
               "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\Program.cs",
               "RelativeToolTip": "AracCepte.WebUI\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBYAAAAAAAAAAAAAAA==",
+<<<<<<< HEAD
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
+=======
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:27:43.509Z",
+              "WhenOpened": "2024-12-07T08:25:53.976Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+              "Title": "AddVehicle.cshtml",
+              "DocumentMoniker": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\Areas\\Users\\Views\\AddVehicle\\AddVehicle.cshtml",
+              "RelativeDocumentMoniker": "AracCepte.WebUI\\Areas\\Users\\Views\\AddVehicle\\AddVehicle.cshtml",
+              "ToolTip": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\Areas\\Users\\Views\\AddVehicle\\AddVehicle.cshtml",
+              "RelativeToolTip": "AracCepte.WebUI\\Areas\\Users\\Views\\AddVehicle\\AddVehicle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+=======
+=======
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
               "DocumentIndex": 12,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DataAccess\\Abstract\\IRepository.cs",
@@ -234,15 +294,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomePage.cshtml",
               "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\Areas\\Users\\Views\\UserHome\\HomePage.cshtml",
               "RelativeDocumentMoniker": "AracCepte.WebUI\\Areas\\Users\\Views\\UserHome\\HomePage.cshtml",
               "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\Areas\\Users\\Views\\UserHome\\HomePage.cshtml",
               "RelativeToolTip": "AracCepte.WebUI\\Areas\\Users\\Views\\UserHome\\HomePage.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+<<<<<<< HEAD
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
+=======
+>>>>>>> c66fe4d4fe3be4b229b6ab52d09e4cc9914c8288
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T07:55:58.819Z",
+              "WhenOpened": "2024-12-07T08:30:19.964Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

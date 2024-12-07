@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AracCepte.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4247febbf04516acd0443758941dcead7ed9e53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f33e56441810d5f6822a0961099f67ab402d3b35")]
 [assembly: System.Reflection.AssemblyProductAttribute("AracCepte.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AracCepte.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
