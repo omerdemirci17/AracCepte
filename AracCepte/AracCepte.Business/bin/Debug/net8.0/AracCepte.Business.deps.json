@@ -636,14 +636,20 @@
       },
       "AracCepte.DataAccess/1.0.0": {
         "dependencies": {
+          "AracCepte.DTO": "1.0.0",
           "AracCepte.Entity": "1.0.0",
           "AutoMapper": "13.0.1"
         },
         "runtime": {
-          "AracCepte.DataAccess.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "AracCepte.DataAccess.dll": {}
+        }
+      },
+      "AracCepte.DTO/1.0.0": {
+        "dependencies": {
+          "AracCepte.Entity": "1.0.0"
+        },
+        "runtime": {
+          "AracCepte.DTO.dll": {}
         }
       },
       "AracCepte.Entity/1.0.0": {
@@ -652,10 +658,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
         },
         "runtime": {
-          "AracCepte.Entity.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "AracCepte.Entity.dll": {}
         }
       }
     }
@@ -1073,6 +1076,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "AracCepte.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AracCepte.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

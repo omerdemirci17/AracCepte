@@ -2827,24 +2827,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MONSTER\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\zehra\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\AracCepte.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\AracCepte.DTO.csproj",
       "projectName": "AracCepte.DTO",
-      "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\AracCepte.DTO.csproj",
-      "packagesPath": "C:\\Users\\MONSTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\obj\\",
+      "projectPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\AracCepte.DTO.csproj",
+      "packagesPath": "C:\\Users\\zehra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MONSTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\zehra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2852,6 +2852,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -2859,8 +2860,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj"
+            "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj": {
+              "projectPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\AracCepte\\AracCepte\\AracCepte.Entity\\AracCepte.Entity.csproj"
             }
           }
         }
@@ -2895,7 +2896,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

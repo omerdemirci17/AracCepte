@@ -1056,10 +1056,7 @@
           "AracCepte.Entity": "1.0.0"
         },
         "runtime": {
-          "AracCepte.DTO.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "AracCepte.DTO.dll": {}
         }
       },
       "AracCepte.Entity/1.0.0": {
@@ -1068,10 +1065,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
         },
         "runtime": {
-          "AracCepte.Entity.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "AracCepte.Entity.dll": {}
         }
       }
     }
