@@ -14,8 +14,8 @@ namespace AracCepte.Entity.Entities
         public string Password { get; set; } // Kullanici sifresi 
         public string Email { get; set; }   //User's Email
         public int PhoneNumber { get; set; } // User's Phone Number
-        public string UserType { get; set; } //Renter or VeihlesOwner
-        public string ImageURL1 { get; set; } // User's Profile Photograph
+        public string? UserType { get; set; } //Renter or VeihlesOwner
+        public string? ImageURL1 { get; set; } // User's Profile Photograph
 
 
 

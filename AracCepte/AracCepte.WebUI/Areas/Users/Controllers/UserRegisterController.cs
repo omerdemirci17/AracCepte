@@ -17,29 +17,16 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
             _httpClient = httpClient;
         }
 
-
         public IActionResult Register()
         {
             var model = new RegisterViewModel();
             return View(model);
         }
 
-
-        [HttpPost]
-        public async Task<IActionResult> Register(RegisterViewModel model)
+        public async Task<IActionResult> Register1()
         {
-            if (!ModelState.IsValid)
-                return View(model);
-
-            var response = await _httpClient.PostAsJsonAsync("https://localhost:7133/api/Users/register", model);
-
-            if (response.IsSuccessStatusCode)
-            {
-                return RedirectToAction("Başarılı");
-            }
-
-            ModelState.AddModelError("", "Kayıt sırasında bir hata oluştu");
-            return View(model);
+            var response = await _httpClient.GetStringAsync("https://localhost:7133/swagger/api/Users/register");
+            return View(response);
         }
     }
 

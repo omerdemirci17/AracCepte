@@ -310,7 +310,6 @@ C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\net8.0\AracCepte.WebUI.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\net8.0\AracCepte.WebUI.pdb
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.WebUI\bin\Debug\net8.0\BCrypt.Net-Next.dll

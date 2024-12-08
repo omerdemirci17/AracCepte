@@ -15,6 +15,8 @@ builder.Services.AddDbContext<AracCepteContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient();
+
 
 var app = builder.Build();
 
@@ -26,8 +28,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-
-builder.Services.AddHttpClient();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
