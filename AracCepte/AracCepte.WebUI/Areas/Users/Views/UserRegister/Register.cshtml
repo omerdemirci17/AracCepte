@@ -1,7 +1,8 @@
 ﻿
 @{
-    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
+@model AracCepte.WebUI.Areas.Users.Models.RegisterViewModel
 <title>Kayıt Ol</title>
 <!-- contact section start -->
 <div class="contact_section layout_padding">
@@ -12,7 +13,7 @@
             </div>
         </div>
     </div>
-    <form action="/submit" method="post"
+    <form action="@Url.Action("HomePage","UserHome")" method="post">
         <div class="container">
             <div class="contact_section_2">
                 <div class="row">

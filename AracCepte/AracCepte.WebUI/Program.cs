@@ -5,6 +5,7 @@ using AracCepte.DataAccess.Context;
 using AracCepte.DataAccess.Repostories;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,18 @@ builder.Services.AddDbContext<AracCepteContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddHttpClient();
+builder.Services.AddHttpClient("ApiClient", client =>
+{
+    var apiBaseUrl = builder.Configuration["ApiSettings:BaseUrl"];
+    client.BaseAddress = new Uri(apiBaseUrl);
+}).ConfigurePrimaryHttpMessageHandler(() =>
+{
+    return new HttpClientHandler
+    {
+        ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+    };
+});
+   
 
 
 var app = builder.Build();

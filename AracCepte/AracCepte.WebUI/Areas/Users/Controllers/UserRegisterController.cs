@@ -1,6 +1,8 @@
 ﻿using AracCepte.WebUI.Areas.Users.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis;
 using System.Net.Http.Json;
+using System.Text.Json;
 
 
 namespace AracCepte.WebUI.Areas.Users.Controllers
@@ -9,7 +11,7 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
     [Route("[area]/[controller]/[action]/{id?}")]
     public class UserRegisterController : Controller
     {
-
+   
         private readonly HttpClient _httpClient;
 
         public UserRegisterController(HttpClient httpClient)
@@ -25,8 +27,9 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
 
         public async Task<IActionResult> Register1()
         {
-            var response = await _httpClient.GetStringAsync("https://localhost:7133/swagger/api/Users/register");
-            return View(response);
+            var response = await _httpClient.GetStringAsync("api/Users/register");
+            var registerModel = JsonSerializer.Deserialize<RegisterViewModel>(response);
+            return View(registerModel);
         }
     }
 
