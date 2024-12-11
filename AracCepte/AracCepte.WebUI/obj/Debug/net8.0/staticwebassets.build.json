@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "la7WQcrsnPkQIralsbml6QBdeN0Cr6h8vlE5RkyesTc=",
+  "Hash": "ibC5bVejd4nVGe17tQ3YRPY7w8iIHRvahRabvN3NtVc=",
   "Source": "AracCepte.WebUI",
   "BasePath": "_content/AracCepte.WebUI",
   "Mode": "Default",
@@ -1357,6 +1357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\elif\\Kayıtol.html"
+    },
+    {
+      "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\wwwroot\\elif\\profil.html",
+      "SourceId": "AracCepte.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\wwwroot\\",
+      "BasePath": "_content/AracCepte.WebUI",
+      "RelativePath": "elif/profil.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\elif\\profil.html"
     },
     {
       "Identity": "C:\\Users\\MONSTER\\Documents\\GitHub\\AracCepte\\AracCepte\\AracCepte.WebUI\\wwwroot\\elif\\services.html",

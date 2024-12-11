@@ -1,7 +1,5 @@
 ﻿using AracCepte.WebUI.Areas.Users.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis;
-using System.Net.Http.Json;
 using System.Text.Json;
 
 
@@ -11,25 +9,45 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
     [Route("[area]/[controller]/[action]/{id?}")]
     public class UserRegisterController : Controller
     {
-   
+
         private readonly HttpClient _httpClient;
 
-        public UserRegisterController(HttpClient httpClient)
+        public UserRegisterController(IHttpClientFactory httpClientFactory)
         {
-            _httpClient = httpClient;
+            _httpClient = httpClientFactory.CreateClient("ApiClient");
         }
 
-        public IActionResult Register()
+        
+        public IActionResult Register( )
         {
-            var model = new RegisterViewModel();
-            return View(model);
+            
+            return View();
         }
 
+        [HttpPost]
         public async Task<IActionResult> Register1()
         {
-            var response = await _httpClient.GetStringAsync("api/Users/register");
-            var registerModel = JsonSerializer.Deserialize<RegisterViewModel>(response);
-            return View(registerModel);
+            try
+            {
+                var response = await _httpClient.GetAsync("api/Users/register");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseBody = await response.Content.ReadAsStringAsync();
+                    var registerModel = JsonSerializer.Deserialize<RegisterViewModel>(responseBody);
+                    return View(registerModel);
+                }
+                else
+                {
+                    ModelState.AddModelError("", "API'den gecerli bir cevap alinamadi.");
+                    return View("Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Bir hata olustu: " + ex.Message);
+                return View("Error");
+            }
         }
     }
 

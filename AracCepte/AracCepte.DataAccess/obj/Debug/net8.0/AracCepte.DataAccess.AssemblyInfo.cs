@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AracCepte.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c8eea63505deb98bcf4e6cbf941454f55c2804e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c552cbd464d167f389aaff7c18c1ce27e9b308d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AracCepte.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AracCepte.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,13 +9,13 @@ namespace AracCepte.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VehiclesController(IGenericService<Vehicle> _vecihleService, IMapper _mapper) : ControllerBase
+    public class VehiclesController(IGenericService<Vehicle> _vehicleService, IMapper _mapper) : ControllerBase
     {
         //Vecihle get all of them
         [HttpGet]
         public IActionResult Get()
         {
-            var values = _vecihleService.TGetList();
+            var values = _vehicleService.TGetList();
             return Ok(values);
         }
 
@@ -23,7 +23,7 @@ namespace AracCepte.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            var value = _vecihleService.TGetById(id);
+            var value = _vehicleService.TGetById(id);
             return Ok(value);
         }
 
@@ -31,25 +31,25 @@ namespace AracCepte.API.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteById(int id)
         {
-            _vecihleService.TDelete(id);
+            _vehicleService.TDelete(id);
             return Ok("arac Silindi");
         }
 
         // Vecihle Create
         [HttpPost]
-        public IActionResult Create(CreateVehicleDto createVecihleDto)
+        public IActionResult Create(CreateVehicleDto createVehicleDto)
         {
-            var newValue = _mapper.Map<Vehicle>(createVecihleDto);
-            _vecihleService.TCreate(newValue);
+            var newValue = _mapper.Map<Vehicle>(createVehicleDto);
+            _vehicleService.TCreate(newValue);
             return Ok("Yeni arac Oluşturuldu");
         }
 
         //Vecihle Update
         [HttpPut]
-        public IActionResult Update(UpdateVehicleDto updateVecihleDto)
+        public IActionResult Update(UpdateVehicleDto updateVehicleDto)
         {
-            var value = _mapper.Map<Vehicle>(updateVecihleDto);
-            _vecihleService.TUpdate(value);
+            var value = _mapper.Map<Vehicle>(updateVehicleDto);
+            _vehicleService.TUpdate(value);
             return Ok("arac Güncellendi");
         }
     }

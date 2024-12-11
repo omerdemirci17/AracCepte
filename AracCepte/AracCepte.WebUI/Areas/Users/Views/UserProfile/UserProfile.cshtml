@@ -1,0 +1,663 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<title>Profil</title>
+<head>
+
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Giriş Yap</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- font css -->
+    <link href="https://fonts.googleapis.com/css2?mily=Poppins:wght@400;700&family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<style>
+    /* Genel Stil */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        background-image: url(../images/banner-bg.png);
+    }
+
+    /* Header */
+    .header_section {
+        width: 100%;
+        float: left;
+        background-color: black;
+        height: auto;
+        background-size: 100%;
+    }
+
+    .header_bg {
+        width: 100%;
+        float: left;
+        background: #1d1d1d;
+        height: auto;
+        background-size: 100%;
+    }
+
+    .bg-light {
+        background-color: transparent !important;
+    }
+
+    .mr-auto,
+    .mx-auto {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0px 20px;
+        font-size: 17px;
+        color: #fefefd;
+        margin: 0px 5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #008080;
+    }
+
+
+    .navbar-brand {
+        margin: 0px;
+        float: right;
+        width: 150px;
+        height: 150px;
+        border-radius: 50px;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-brand-2 {
+        width: 25px;
+        height: 25px;
+        margin: 0px;
+        float: right;
+    }
+
+    .call_text_main {
+        width: 100%;
+        float: left;
+        background-color: #fe5b29;
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .call_taital {
+        width: 100%;
+        display: flex;
+    }
+
+    .call_text {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+        .call_text a {
+            width: 100%;
+            float: left;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 0px 20px;
+        }
+
+            .call_text a:hover {
+                color: #363636;
+            }
+
+    .padding_left_15 {
+        padding-left: 20px;
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+    .profile-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .profile-dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #333;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .profile-dropdown-content a {
+            color: white;
+            padding: 16px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            .profile-dropdown-content a:hover {
+                background-color: #575757;
+            }
+
+    .profile-dropdown:hover .profile-dropdown-content {
+        display: block;
+    }
+
+    .profile-icon {
+        width: 40px;
+        height: 40px;
+        background-color: #666;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+    }
+
+        .search input {
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 200px; /* Arama kutusunun geni�li�i */
+        }
+
+        .search button {
+            padding: 6px 10px;
+            background-color: black;
+            color: #008080;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .search button:hover {
+                background-color: #008080;
+            }
+    /* Profil Başlığı */
+    .profile-header {
+        text-align: center;
+        padding: 20px 20px;
+        background-color: #008080;
+        border-bottom: solid #008080;
+    }
+
+        .profile-header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            margin-bottom: 10px;
+            border-bottom: 100px;
+        }
+
+        .profile-header h2 {
+            font-size: 24px;
+            color: black;
+        }
+
+        .profile-header p {
+            color: black;
+            margin: 5px 0;
+        }
+
+    .btn-edit-profile {
+        padding: 5px 15px; /* Yatay ve dikey padding azaltıldı */
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+        font-size: 18px; /* Yazı boyutu küçültüldü */
+        width: auto; /* Buton genişliğini içeriğine göre otomatik yapar */
+        max-width: 300px; /* Maksimum genişlik sınırı eklenebilir */
+    }
+
+        .btn-edit-profile:hover {
+            background-color: #006666;
+        }
+
+    /* Sekmeli Form */
+    .profile-container {
+        background-color: grey;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .tabs {
+        display: flex;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 20px;
+    }
+
+    .tab {
+        flex: 1;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: center;
+        background: #f4f4f4;
+        transition: background 0.3s;
+        border: 1px solid #ccc;
+        border-bottom: none;
+        font-weight: bold;
+    }
+
+        .tab.active {
+            background: #fff;
+            font-weight: bold;
+            border-bottom: 2px solid #fff;
+        }
+
+        .tab:hover {
+            background:;
+            color: #008080;
+        }
+
+    .tab-content {
+        display: none;
+    }
+
+        .tab-content.active {
+            display: block;
+            color: black;
+        }
+
+    fieldset {
+        border: 1px solid black;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    legend {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    input, select, textarea, button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    span.current {
+        color: black;
+    }
+
+    .nice-select {
+        color: black;
+        font-size: 18px;
+    }
+    /* footer section start */
+
+    .footer_section {
+        width: 100%;
+        float: left;
+        height: auto;
+        background-color: #363636;
+        background-size: 100%;
+        padding: 50px 50px;
+    }
+
+    .footeer_logo {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .footer_section_2 {
+        width: 100%;
+        float: left;
+        padding-top: 50px;
+    }
+
+    .footer_taital {
+        width: 100%;
+        float: left;
+        font-size: 26px;
+        color: #fefefd;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    .lorem_text {
+        width: 60%;
+        float: left;
+        font-size: 16px;
+        color: #fefefd;
+        margin: 0px;
+    }
+
+    .footer_text {
+        width: 100%;
+        float: left;
+        font-size: 16px;
+        color: #fefefd;
+        margin: 3px;
+    }
+
+    fa {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .social_icon {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+
+        .social_icon ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .social_icon li {
+            float: left;
+        }
+
+            .social_icon li a {
+                float: left;
+                padding: 2px 7px;
+                background-color: #ffffff;
+                color: #2e2e2e;
+                border-radius: 100%;
+                font-size: 20px;
+                margin-right: 5px;
+                width: 41px;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+                .social_icon li a:hover {
+                    background-color: #fe5b29;
+                    color: #ffffff;
+                }
+
+    .update_mail {
+        color: #ffffff;
+        width: 100%;
+        height: 55px;
+        font-size: 18px;
+        padding: 10px 20px 0px 0px;
+        background-color: transparent;
+        border-bottom: 1px solid #ffffff !important;
+        border: 0px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    textarea#comment::placeholder {
+        color: #fff;
+    }
+
+    .scribe_bt {
+        width: 100px;
+        float: right;
+        margin-top: 50px;
+    }
+
+    .subscribe_bt a {
+        width: 40%;
+        height: 40%;
+        float: none;
+        color: #fffff;
+        font-size: 15px;
+        padding: 8px 8px 8px 8px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: #008080;
+        text-align: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+        .subscribe_bt a:hover {
+            color: #363636;
+            background-color: #ffffff;
+        }
+
+    .location_text {
+        width: 100%;
+        float: left;
+    }
+
+        .location_text a {
+            width: 100%;
+            float: left;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+            .location_text a:hover {
+                color: #fe5b29;
+            }
+
+    .padding_left_15 {
+        padding-left: 10px;
+    }
+    /* copyright section start */
+
+    .copyright_section {
+        width: 100%;
+        float: left;
+        background-color: #363636;
+        height: auto;
+    }
+
+    .copyright_text {
+        width: 100%;
+        float: left;
+        font-size: 16px;
+        color: #fefefd;
+        text-align: center;
+        margin-left: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+        .copyright_text a {
+            color: #fefefd;
+        }
+
+            .copyright_text a:hover {
+                color: #fe5b29;
+            }
+
+
+    /* copyright section end */
+
+</style>
+   </head> 
+
+<body>
+    <!-- Profil Başlığı -->
+   <div class="profile-header">
+        <img src="~/elif/images/profil.png" alt="Kullanıcı Fotoğrafı">
+        <h2>Kullanıcı Adı</h2>
+        <p>kullanici@ornek.com</p>
+        <button class="btn-edit-profile" onclick="~/elif/editProfile()">Profili Düzenle</button>
+    </div>
+
+    <!-- Profil Formu -->
+    <div class="profile-container">
+        <h1>Kullanıcı Bilgileri</h1>
+        <div class="tabs">
+            <div class="tab active" data-tab="personal">Kişisel Bilgiler</div>
+            <div class="tab" data-tab="contact">İletişim Bilgileri</div>
+            <div class="tab" data-tab="license">Ehliyet Bilgileri</div>
+            <div class="tab" data-tab="registration">Ruhsat Belgeleri</div>
+            <div class="tab" data-tab="vehicles">Kayıtlı Araçlarım</div>
+            <div class="tab" data-tab="payment">Ödeme Bilgileri</div>
+            <div class="tab" data-tab="permissions">İzinlerim</div>
+        </div>
+
+         <form>
+            <!-- Kişisel Bilgiler -->
+              <div id="personal" class="tab-content active">
+                <fieldset>
+                    <legend>Kişisel Bilgiler</legend>
+                    <label>Kullanıcı adı</label>
+                    <input type="text" placeholder="Kullanıcı Adı" required>
+                    <label>Ad ve Soyad</label>
+                    <input type="text" placeholder="Ad Soyad" required>
+                    <label>Doğum Tarihi:</label>
+                    <input type="date" required>
+                    <label>Cinsiyet:</label>
+                    <select>
+                        <option>Erkek</option>
+                        <option>Kadın</option>
+                        <option>Diğer</option>
+                    </select>
+                </fieldset>
+            </div>
+
+           <!-- İletişim Bilgileri -->
+            <div id="contact" class="tab-content">
+                <fieldset>
+                    <legend>İletişim Bilgileri</legend>
+                    <label>E-posta:</label>
+                    <input type="email" placeholder="ornek@domain.com" required>
+                    <label>Telefon:</label>
+                    <input type="tel" placeholder="+90 555 123 45 67" required>
+                </fieldset>
+            </div>
+            <!-- Ehliyet Bilgileri -->
+            <div id="license" class="tab-content">
+                <fieldset>
+                    <legend>Ehliyet Bilgileri</legend>
+                    <label>Ehliyet Sınıfı:</label>
+                    <select>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                    </select>
+                    <label>Ehliyet Numarası:</label>
+                    <input type="text" placeholder="Ehliyet Numarası" required>
+                    <label>Veriliş Tarihi:</label>
+                    <input type="date" required>
+                </fieldset>
+            </div>
+
+            <!-- Ruhsat Belgeleri -->
+            <div id="registration" class="tab-content">
+                <fieldset>
+                    <legend>Ruhsat Belgeleri</legend>
+                    <label>Ruhsat Numarası:</label>
+                    <input type="text" placeholder="Ruhsat Numarası" required>
+                    <label>Belge Sahibi:</label>
+                    <input type="text" placeholder="Belge Sahibi">
+                    <label>Geçerlilik Tarihi:</label>
+                    <input type="date" required>
+                </fieldset>
+            </div>
+
+            <!-- Kayıtlı Araçlarım -->
+            <div id="vehicles" class="tab-content">
+                <fieldset>
+                    <legend>Kayıtlı Araçlarım</legend>
+                    <label>Araç Plakası:</label>
+                    <input type="text" placeholder="Araç Plakası">
+                    <label>Marka ve Model:</label>
+                    <input type="text" placeholder="Marka ve Model">
+                </fieldset>
+            </div>
+
+            <!-- Ödeme Bilgileri -->
+            <div id="payment" class="tab-content">
+                <fieldset>
+                    <legend>Ödeme Bilgileri</legend>
+                    <label>Kredi Kartı Numarası:</label>
+                    <input type="text" placeholder="Kart Numarası">
+                    <label>Son Kullanma Tarihi:</label>
+                    <input type="month" required>
+                    <label>CVV:</label>
+                    <input type="text" placeholder="Güvenlik Kodu">
+                </fieldset>
+            </div>
+
+            <!-- İzinlerim -->
+            <div id="permissions" class="tab-content">
+                <fieldset>
+                    <legend>İzinlerim</legend>
+                    <label><input type="checkbox"> Bildirimlere izin ver</label>
+                    <br>
+                    <label><input type="checkbox"> Kampanya mesajlarına izin ver</label>
+                    <br>
+                    <label><input type="checkbox"> Veri paylaşımına izin ver</label>
+                </fieldset>
+            </div>
+        </form> 
+    </div>
+    </body>
+
+
+
+<script src="~/elif/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="~/elif/js/custom.js"></script>
+
+<script>
+    function editProfile() {
+        alert("Profili düzenleme sayfasına yönlendirileceksiniz.");
+    }
+
+    const tabs = document.querySelectorAll(".tab");
+    const contents = document.querySelectorAll(".tab-content");
+
+    tabs.forEach(tab => {
+            tabs.forEach(t => t.classList.remove("active"));
+            contents.forEach(content => content.classList.remove("active"));
+            tab.classList.add("active");
+            document.getElementById(tab.dataset.tab).classList.add("active");
+        });
+    });
+</script>

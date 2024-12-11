@@ -700,7 +700,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "createVecihleDto",
+        "Name": "createVehicleDto",
         "Type": "AracCepte.DTO.DTOs.VehicleDtos.CreateVehicleDto",
         "IsRequired": true
       }
@@ -716,7 +716,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "updateVecihleDto",
+        "Name": "updateVehicleDto",
         "Type": "AracCepte.DTO.DTOs.VehicleDtos.UpdateVehicleDto",
         "IsRequired": true
       }
