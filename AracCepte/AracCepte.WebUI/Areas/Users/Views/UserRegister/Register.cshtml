@@ -39,10 +39,20 @@
     <!-- Javascript files-->
     <script src="~/elif/js/jquery.min.js"></script>
     <script src="~/elif/js/popper.min.js"></script>
-    <script src="~/elif/js/bootstrap.bundle.min.js"></script>
+    <script src="~/elif/js/bootstrap.bundle.min.js"></script>w
     <script src="~/elif/js/jquery-3.0.0.min.js"></script>
     <script src="~/elif/js/plugin.js"></script>
     <!-- sidebar -->
     <script src="~/elif/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="~/elif/js/custom.js"></script>
-    
+    <script>
+        const API_URL = "https://localhost:7133";
+        fetch(`${API_URL}/api/Users/register`)
+            .then(response => { if (!response.ok) { 
+                throw new Error('Network response was not ok');
+            }
+                return response.json();
+            })
+            .then(data => console.log(data));
+
+    </script>
