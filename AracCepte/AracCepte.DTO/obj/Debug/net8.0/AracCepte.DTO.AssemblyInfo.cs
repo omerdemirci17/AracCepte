@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AracCepte.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c552cbd464d167f389aaff7c18c1ce27e9b308d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdd9ebd25ad3fa03c5b8f2a0625e94940a4b0241")]
 [assembly: System.Reflection.AssemblyProductAttribute("AracCepte.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AracCepte.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

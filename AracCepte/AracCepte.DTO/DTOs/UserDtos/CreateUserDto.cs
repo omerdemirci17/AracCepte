@@ -24,6 +24,10 @@ namespace AracCepte.DTO.DTOs.UserDtos
         public string Password { get; set; }
 
         [Required]
+        [Compare("Password", ErrorMessage = "Şifreler Uyuşmuyor.")]
+        public string ConfirmPassword { get; set; }
+
+        [Required]
         [RegularExpression(@"^\+?\d{10}$", ErrorMessage = "Girilen telefon numarası geçersizdir")]
         public int PhoneNumber { get; set; } // User's Phone Number
     }

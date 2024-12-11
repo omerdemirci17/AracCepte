@@ -1,4 +1,5 @@
 ﻿using AracCepte.WebUI.Areas.Users.Models;
+using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 
@@ -17,38 +18,41 @@ namespace AracCepte.WebUI.Areas.Users.Controllers
             _httpClient = httpClientFactory.CreateClient("ApiClient");
         }
 
-        
-        public IActionResult Register( )
+
+        public IActionResult Register()
         {
-            
+
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register1()
+        public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            try
+            if (ModelState.IsValid)
             {
-                var response = await _httpClient.GetAsync("api/Users/register");
+                try
+                {
+                    var response = await _httpClient.GetAsync("api/Users/register");
 
-                if (response.IsSuccessStatusCode)
-                {
-                    var responseBody = await response.Content.ReadAsStringAsync();
-                    var registerModel = JsonSerializer.Deserialize<RegisterViewModel>(responseBody);
-                    return View(registerModel);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var responseBody = await response.Content.ReadAsStringAsync();
+                        var registerModel = JsonSerializer.Deserialize<RegisterViewModel>(responseBody);
+                        return View(registerModel);
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "API'den gecerli bir cevap alinamadi.");
+                        return View("Error");
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    ModelState.AddModelError("", "API'den gecerli bir cevap alinamadi.");
+                    ModelState.AddModelError("", "Bir hata olustu: " + ex.Message);
                     return View("Error");
                 }
             }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", "Bir hata olustu: " + ex.Message);
-                return View("Error");
-            }
+            return View(model);
         }
     }
-
 }
