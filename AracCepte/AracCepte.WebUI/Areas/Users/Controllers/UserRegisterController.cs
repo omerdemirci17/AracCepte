@@ -1,4 +1,5 @@
 ﻿using AracCepte.WebUI.Areas.Users.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
@@ -6,6 +7,7 @@ using System.Text.Json;
 
 namespace AracCepte.WebUI.Areas.Users.Controllers
 {
+    
     [Area("Users")]
     [Route("[area]/[controller]/[action]/{id?}")]
     public class UserRegisterController : Controller

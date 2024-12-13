@@ -1,0 +1,15 @@
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\bin\Release\net8.0\AracCepte.Entity.deps.json
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\bin\Release\net8.0\AracCepte.Entity.runtimeconfig.json
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\bin\Release\net8.0\AracCepte.Entity.dll
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\bin\Release\net8.0\AracCepte.Entity.pdb
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.csproj.AssemblyReference.cache
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.AssemblyInfoInputs.cache
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.AssemblyInfo.cs
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.sourcelink.json
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.dll
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\refint\AracCepte.Entity.dll
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.pdb
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\AracCepte.Entity.genruntimeconfig.cache
+C:\Users\MONSTER\Documents\GitHub\AracCepte\AracCepte\AracCepte.Entity\obj\Release\net8.0\ref\AracCepte.Entity.dll

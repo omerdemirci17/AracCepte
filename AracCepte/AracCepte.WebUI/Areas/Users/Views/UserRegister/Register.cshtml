@@ -39,7 +39,7 @@
     <!-- Javascript files-->
     <script src="~/elif/js/jquery.min.js"></script>
     <script src="~/elif/js/popper.min.js"></script>
-    <script src="~/elif/js/bootstrap.bundle.min.js"></script>w
+    <script src="~/elif/js/bootstrap.bundle.min.js"></script>
     <script src="~/elif/js/jquery-3.0.0.min.js"></script>
     <script src="~/elif/js/plugin.js"></script>
     <!-- sidebar -->
@@ -48,11 +48,11 @@
     <script>
         const registerUser = async () => {
             const formData = {
-                Name: document.querySelector('inmut[name="Name"]').value,
+                Name: document.querySelector('input[name="Name"]').value,
                 Surname: document.querySelector('input[name = "Surname"]').value,
-                Email: document.querySelector('input[name = "Email"]'), value,
+                Email: document.querySelector('input[name = "Email"]').value,
                 Password: document.querySelector('input[name = "Password"]').value,
-                PhoneNumber: document.querySelector('input[name = "PhoneNumber"]').value,
+                PhoneNumber: Number(document.querySelector('input[name = "PhoneNumber"]')).value,
             };
         
             const response = await fetch('https://localhost:7133/api/Users/register', {
@@ -71,7 +71,7 @@
              }
         };
         document.querySelector('form').addEventListener('submit', (event) => {
-            evemt.preventDefault();
+            event.preventDefault();
             registerUser();
         });
 

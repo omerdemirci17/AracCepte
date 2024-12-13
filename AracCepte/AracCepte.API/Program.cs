@@ -22,15 +22,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAllOrigins", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
         policy.AllowAnyOrigin()
               .AllowAnyMethod()
               .AllowAnyHeader();
-    }
-    );
-}
-);
+    });
+});
 
 
 var app = builder.Build();
@@ -42,7 +40,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowAllOrigins");
+app.UseCors("AllowAll");
+app.UseRouting();
 
 app.UseHttpsRedirection();
 
@@ -51,5 +50,9 @@ app.UseAuthorization();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller = Home}/{action = HomePage}/{id?}"
+    );
 
 app.Run();
